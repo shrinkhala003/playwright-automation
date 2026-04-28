@@ -1,0 +1,23 @@
+{
+  "name": "pomplaywright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "loginTests:cli": "npx playwright test loginTests.spec.ts",
+    "registerTests:cli": "npx playwright test registerTests.spec.ts",
+    "forgotPasswordTests:cli": "npx playwright test forgotPasswordTests.spec.ts",
+    "tests:cli": "npx playwright test",
+    "tests:headed": "npx playwright test --headed",
+    "loginTests:headed": "npx playwright test loginTests.spec.ts --headed",
+    "registerTests:headed": "npx playwright test registerTests.spec.ts --headed",
+    "forgotPasswordTests:headed": "npx playwright test forgotPasswordTests.spec.ts --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.3.2"
+  }
+}
